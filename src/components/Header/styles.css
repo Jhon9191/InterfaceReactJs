@@ -1,0 +1,95 @@
+.header{
+    background-color: #FFF;
+    display: flex; 
+    width: "100%";
+    padding: 5px;
+    align-items: center;
+    height: 72px;
+    box-shadow: 2px 2px 7px rgba(197, 197, 197, 0.433);
+}
+
+.first{
+    display: flex;margin-left: 10vw;
+    width: 70vw;
+    flex-direction: row;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inputView{
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 2px 2px 7px rgba(197, 197, 197, 0.433);
+}.input{
+    border-width: 0px;
+    padding: 5px;
+}.lupa{
+    color: #656565; 
+    padding: 3px;
+}
+
+.marginButtons{
+    margin: 10px;
+    color: #656565;
+}
+
+.Config{
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    box-shadow: 2px 2px 7px 3px rgba(197, 197, 197, 0.433);
+}
+.buttonAddUser{
+    margin-right: 30px;
+    margin-left: 15PX;
+    border-width: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color:#d93067 ;
+    background-color: #d93067;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+}.buttonUser{
+    border-width: 0px;
+    margin-right: 30px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(214,59,93);
+    background: linear-gradient(45deg, rgba(214,59,93,1) 0%, rgba(248,123,15,1) 100%);  
+}.iconSHILD{
+    width: 20px;
+    height: 20px;
+    color-adjust: #fff;
+}.shieldButtton{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-width: 0px;
+    box-shadow: 2px 2px 7px 3px rgba(197, 197, 197, 0.433);
+}
